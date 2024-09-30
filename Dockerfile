@@ -25,7 +25,7 @@ RUN wget https://bootstrap.pypa.io/pip/3.4/get-pip.py && \
     python3 get-pip.py && \
     rm get-pip.py
 
-RUN pip3 install tensorflow==1.5.0 numpy==1.14.5 keras==2.1.4 scikit-learn==0.18.1 python-gflags protobuf==3.4.0 scipy==0.19 opencv-python==3.4.0.12
+RUN pip3 install tensorflow==1.5.0 numpy==1.14.5 keras==2.1.4 scikit-learn==0.18.1 python-gflags protobuf==3.4.0 scipy==0.19 opencv-python==3.4.0.12 h5py
 
 
 CMD ["/bin/bash"]
