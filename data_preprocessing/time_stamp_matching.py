@@ -10,7 +10,7 @@ import re
 import os
 
 # Path to the data extracted from the Udacity dataset
-folder = None #"training"  or "testing"
+folder = "/media/Media14/udacity_data/training" #"training"  or "testing"
 assert folder, "You should provide the dataset folder"
 experiments = glob.glob(folder + "/*")
 
